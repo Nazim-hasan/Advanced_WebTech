@@ -17,6 +17,7 @@ use App\Http\Controllers\PagesController;
 //     return view('welcome');
 // });
 Route::get('/',[PagesController::class,'index'])->name('app');
+Route::get('/home',[PagesController::class,'home'])->name('home');
 Route::get('/product/service',[PagesController::class,'service'])->name('service');
 Route::get('/ourTeams',[PagesController::class,'teams'])->name('teams');
 Route::get('/aboutUs',[PagesController::class,'aboutUs'])->name('aboutUs');
