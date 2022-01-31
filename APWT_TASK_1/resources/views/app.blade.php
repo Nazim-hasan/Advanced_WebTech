@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h4 classList='text-white'>Company Name <span className='text-danger'>Up</span></h4>
+                        <h4 classList='text-white'>Company Name</h4>
                         <p><small>4967 Sardis Sta, Victoria 8007, Montreal.</small></p>
                         <p><small>+1 246-345-0695</small></p>
                         <p><small>Info@company.Com</small></p>

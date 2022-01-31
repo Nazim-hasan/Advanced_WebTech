@@ -14,6 +14,7 @@ class PagesController extends Controller
         return view('home');
     }
     public function service(){
+        // $products=array("XPress Bottle",)
         return view('Service');
     }
     public function teams(){
