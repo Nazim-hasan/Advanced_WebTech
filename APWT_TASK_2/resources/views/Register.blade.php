@@ -2,7 +2,7 @@
 @section('content')
 <div class="d-flex justify-content-center mt-5">
     <div style="width:50%">
-        <form action="{{route('Register')}}" method="post">
+        <form action="{{route('registration')}}" method="post">
         {{csrf_field()}}
         @if ($errors->any())
             <div class="alert alert-danger">
