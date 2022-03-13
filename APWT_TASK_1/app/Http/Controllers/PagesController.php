@@ -57,7 +57,6 @@ class PagesController extends Controller
     }
 
     public function registrationSubmitted(Request $request){
-        $user= array('email@email.com','123456');
         $validate = $request->validate([
             'email'=>'email',
             'password'=>'required|min:5|max:10',
@@ -68,10 +67,6 @@ class PagesController extends Controller
             'password.min'=>'password must be greater than 5 charcters'
         ]
         );
-        if($request->email==$user[0] && $request->password==$user[1])
-        {
-            return  redirect('/home');
-        }
-        return redirect()->route('Register');
+        return  redirect('/home');
     }
 }
